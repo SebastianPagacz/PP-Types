@@ -48,7 +48,7 @@ void PrintColumns(string[] t, int perLine, int width)
         }
         else
         {
-            Console.Write(t[k].PadRight(width) + " |");
+            Console.Write(t[k].PadRight(width) + "| ");
         }
         if ((k + 1) % perLine == 0)
         {
